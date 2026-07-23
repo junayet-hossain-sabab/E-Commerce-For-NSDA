@@ -1,0 +1,29 @@
+/* All Common Css Start  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+a a:hover {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+ul ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+/* All Common Css End */
+
+/* Header Part Start  */
+/* Header Part End  */

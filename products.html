@@ -39,13 +39,13 @@
               >Vogue.</a
             >
             <button
-              class="navbar-toggler border-0"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navEcomBanner"
-            >
-              <i class="bi bi-list fs-3"></i>
-            </button>
+                  class="navbar-toggler border-0"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navEcomBanner"
+                >
+                  <i class="fas fa-bars fs-3"></i>
+                </button>
             <div class="collapse navbar-collapse" id="navEcomBanner">
               <ul
                 class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold text-uppercase small"
@@ -66,14 +66,18 @@
                 </li>
               </ul>
               <div class="d-flex align-items-center gap-3">
+                <form class="d-flex me-3" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
                 <a href="#" class="text-decoration-none text-dark small"
-                  ><i class="bi bi-globe me-1"></i> EN / USD</a
+                  ><i class="fas fa-globe me-1"></i> EN / USD</a
                 >
                 <a href="#" class="text-dark"
-                  ><i class="bi bi-person fs-5"></i
+                  ><i class="fas fa-user fs-5"></i
                 ></a>
                 <a href="#" class="text-dark position-relative">
-                  <i class="bi bi-bag fs-5"></i>
+                  <i class="fas fa-shopping-bag fs-5"></i>
                   <span
                     class="position-absolute top-0 start-100 translate-middle p-1 bg-primary border border-light rounded-circle"
                   ></span>
@@ -86,58 +90,22 @@
     </header>
     <!-- Header Part End  -->
 
-    <!-- Banner Part Start  -->
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://images.pexels.com/photos/10620471/pexels-photo-10620471.jpeg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://images.pexels.com/photos/10620471/pexels-photo-10620471.jpeg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://images.pexels.com/photos/10620471/pexels-photo-10620471.jpeg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
+    <!-- Hero Section Start -->
+    <section class="bg-primary text-white py-5">
+      <div class="container text-center">
+        <h1 class="display-4 fw-bold">Shop Our Amazing Products</h1>
+        <p class="lead">Discover the best deals on fashion, electronics, and more!</p>
+        <a href="#products" class="btn btn-light btn-lg mt-3">Browse Now</a>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExample"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExample"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- Banner Part End -->
+    </section>
+    <!-- Hero Section End -->
 
     <!-- Products Part Start  -->
-<div class="container py-5">
+<div id="products" class="container py-5">
 <div class="row">
 
 <!-- Sidebar Filter -->
-<div class="col-lg-3 mb-4">
+<div class="col-lg-3 mb-4 d-none d-lg-block">
 <div class="card shadow-sm">
 <div class="card-header bg-dark text-white">
 <h5 class="mb-0">Filter</h5>
@@ -173,9 +141,9 @@ Max Price:
 <div class="row g-4">
 
 <!-- Product 1 -->
-<div class="col-md-4">
+<div class="col-12 col-md-6 col-lg-3">
 <div class="card h-100 shadow-sm">
-<img src="https://via.placeholder.com/300x220&quot; class="card-img-top">
+<img src="https://via.placeholder.com/300x220" class="card-img-top">
 
 <div class="card-body text-center">
 <h5>Wireless Headphone</h5>
@@ -192,9 +160,9 @@ Add to Cart
 </div>
 
 <!-- Product 2 -->
-<div class="col-md-4">
+<div class="col-12 col-md-6 col-lg-3">
 <div class="card h-100 shadow-sm">
-<img src="https://via.placeholder.com/300x220&quot; class="card-img-top">
+<img src="https://via.placeholder.com/300x220" class="card-img-top">
 
 <div class="card-body text-center">
 <h5>Smart Watch</h5>
@@ -211,9 +179,9 @@ Add to Cart
 </div>
 
 <!-- Product 3 -->
-<div class="col-md-4">
+<div class="col-12 col-md-6 col-lg-3">
 <div class="card h-100 shadow-sm">
-<img src="https://via.placeholder.com/300x220&quot; class="card-img-top">
+<img src="https://via.placeholder.com/300x220" class="card-img-top">
 
 <div class="card-body text-center">
 <h5>Running Shoes</h5>
@@ -222,6 +190,101 @@ Add to Cart
 <button
 class="btn btn-primary addCartBtn"
 data-product="Running Shoes">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 4 -->
+<div class="col-12 col-md-6 col-lg-3">
+<div class="card h-100 shadow-sm">
+<img src="https://via.placeholder.com/300x220" class="card-img-top">
+
+<div class="card-body text-center">
+<h5>Leather Jacket</h5>
+<p class="text-success fw-bold">৳4500</p>
+
+<button
+class="btn btn-primary addCartBtn"
+data-product="Leather Jacket">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 5 -->
+<div class="col-12 col-md-6 col-lg-3">
+<div class="card h-100 shadow-sm">
+<img src="https://via.placeholder.com/300x220" class="card-img-top">
+
+<div class="card-body text-center">
+<h5>Laptop Sleeve</h5>
+<p class="text-success fw-bold">৳800</p>
+
+<button
+class="btn btn-primary addCartBtn"
+data-product="Laptop Sleeve">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 6 -->
+<div class="col-12 col-md-6 col-lg-3">
+<div class="card h-100 shadow-sm">
+<img src="https://via.placeholder.com/300x220" class="card-img-top">
+
+<div class="card-body text-center">
+<h5>Cotton T-Shirt</h5>
+<p class="text-success fw-bold">৳600</p>
+
+<button
+class="btn btn-primary addCartBtn"
+data-product="Cotton T-Shirt">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 7 -->
+<div class="col-12 col-md-6 col-lg-3">
+<div class="card h-100 shadow-sm">
+<img src="https://via.placeholder.com/300x220" class="card-img-top">
+
+<div class="card-body text-center">
+<h5>Gaming Mouse</h5>
+<p class="text-success fw-bold">৳1200</p>
+
+<button
+class="btn btn-primary addCartBtn"
+data-product="Gaming Mouse">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 8 -->
+<div class="col-12 col-md-6 col-lg-3">
+<div class="card h-100 shadow-sm">
+<img src="https://via.placeholder.com/300x220" class="card-img-top">
+
+<div class="card-body text-center">
+<h5>Yoga Mat</h5>
+<p class="text-success fw-bold">৳900</p>
+
+<button
+class="btn btn-primary addCartBtn"
+data-product="Yoga Mat">
 Add to Cart
 </button>
 
